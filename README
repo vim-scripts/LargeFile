@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1506
+
+Editing large files can be a time consuming process as Vim is working on a number of things behind the scenes, such as maintaining an undo database, searching for a syntax highlighting synchronization point, etc.  LargeFile.vim is a very small "plugin"; mostly, its just an autocmd that disables certain features of vim in the interests of speed.
+
+There's an option:  g:LargeFile (by default, its 100).  It describes the minimum size of a file needed for it to be considered as a "LargeFile", in megabytes.  You may set that option in your <.vimrc>.
+
+The plugin is based on vimtip#611.
