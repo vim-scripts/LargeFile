@@ -5,3 +5,5 @@ Editing large files can be a time consuming process as Vim is working on a numbe
 There's an option:  g:LargeFile (by default, its 100).  It describes the minimum size of a file needed for it to be considered as a "LargeFile", in megabytes.  You may set that option in your <.vimrc>.
 
 The plugin is based on vimtip#611.
+
+(alpha/beta version available at http://www.drchip.org/astronaut/vim/index.html#LARGEFILE)
